@@ -1,0 +1,19 @@
+.style{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .block{
+    height: 30vh;
+  }
+  .wow{
+     visibility: hidden;
+  }
+  .btn{
+    display:block;
+    margin: 30px auto;
+    font-size: 20px;
+  }
+  .btn .fas{
+    
+    font-size: 18px;
+  }
