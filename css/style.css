@@ -1,54 +1,110 @@
-.style{
-    font-size: 20px;
-    font-weight: 500;
-  }
-  .block{
-    height: 30vh;
-  }
-  .wow{
-     visibility: hidden;
-  }
-  .btn{
-    display:block;
-    margin: 30px auto;
-    font-size: 20px;
-  }
-  .btn .fas{
-    
-    font-size: 18px;
+body{
+    overflow-x: hidden;
+    /*height: 100%;*/
 }
 
-@media (max-width: 768px) {
-    .carousel-inner .carousel-item1 > div {
-        display: none;
+.nav-top{
+    /*padding: 0%;
+    /*margin: 0%;*/
+    height: 180px;
+}
+
+/*@media(min-width: 1000px) {
+    .nav-top{
+        position: absolute;
+        text-align: left;
+        float: none;
     }
-    .carousel-inner .carousel-item1 > div:first-child {
-        display: block;
+}*/
+.ico{
+    display: inline;
+}
+.icons a i{
+    padding: 1.5%;
+}
+
+
+.nav-container{
+    width: 100%;
+    position: static;
+    margin-top: -1.5%;
+}
+.carousel{
+    margin-top: -1.0%;
+    z-index: -1;
+}
+
+.card {
+    box-shadow: 0px 4px 8px 0px #BDBDBD
+}
+
+.profile-pic {
+    width: 100px !important;
+    height: 100px;
+    box-shadow: 0px 4px 8px 0px #BDBDBD
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: #1E88E5 !important;
+    border: none;
+    padding: 5px 20px !important;
+    font: inherit;
+    font-size: 50px !important
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    color: #0D47A1 !important;
+    background-color: transparent !important
+}
+
+.owl-dots {
+    display: none
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.item {
+    display: none
+}
+
+.next {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.prev {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.item.show {
+    display: block;
+    transition-duration: 0.4s
+}
+
+@media screen and (max-width: 999px) {
+
+    .next,
+    .prev {
+        transform: scale(1);
+        opacity: 1
+    }
+
+    .item {
+        display: block !important
     }
 }
-
-.carousel-inner .carousel-item1.active,
-.carousel-inner .carousel-item1-next,
-.carousel-inner .carousel-item1-prev {
-    display: flex;
-}
-
-/* display 3 */
-@media (min-width: 768px) {
-    
-    .carousel-inner .carousel-item1-right.active,
-    .carousel-inner .carousel-item1-next {
-      transform: translateX(33.333%);
-    }
-    
-    .carousel-inner .carousel-item1-left.active, 
-    .carousel-inner .carousel-item1-prev {
-      transform: translateX(-33.333%);
-    }
-}
-
-.carousel-inner .carousel-item1-right,
-.carousel-inner .carousel-item1-left{ 
-  transform: translateX(0);
-}
-
