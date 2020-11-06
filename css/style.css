@@ -54,7 +54,10 @@ a i {
     margin-left: -340px;
 }
 /*Owl carousle*/
-
+.card-top{
+    margin-top: -1.0%;
+    z-index:-1;
+}
 .carousel{
     margin-top: -1.0%;
     z-index: -1;
