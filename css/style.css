@@ -46,15 +46,12 @@ a i {
 .nav-container{
     width: 100%;
     position: static;
-    margin-top: -1.5%;
+    margin-top: -1.8%;
 }
 
 
 .title{
     margin-left: -340px;
-    margin-bottom: -30px;
-}
-.form-inline{
     margin-bottom: -30px;
 }
 /*Owl carousle*/
