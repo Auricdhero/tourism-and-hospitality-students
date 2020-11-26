@@ -60,7 +60,7 @@ a i {
     z-index:-1;
 }
 .carousel{
-    margin-top: -9.5%;
+    margin-top: -11.9%;
     z-index: -1;
 }
 
@@ -95,6 +95,10 @@ a i {
 }
 .owl-dots {
     display: none
+}
+
+.card{
+    height: 500px;
 }
 
 button:focus {
