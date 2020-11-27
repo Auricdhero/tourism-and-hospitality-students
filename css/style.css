@@ -3,10 +3,10 @@ body{
     /*height: 100%;*/
 }
 
-.nav-top{
+/*.nav-top{
     /*padding: 0%;
     /*margin: 0%;*/
-    height: 180px;
+    /*height: 180px;
 }
 
 /*@media(min-width: 1000px) {
@@ -18,7 +18,9 @@ body{
 }*/
 
 .logo{
-    left: 30px;
+    left: 400px;
+    margin-left: -540px;
+    margin-bottom: -30px;
 }
 
 a i {
@@ -43,15 +45,15 @@ a i {
     font-size: 15px;
 }
 
-.nav-container{
+/*.nav-container{
     width: 100%;
     position: static;
     margin-top: -1.5%;
-}
+}*/
 
 
 .title{
-    margin-left: -340px;
+    margin-left: -540px;
     margin-bottom: -30px;
 }
 /*Owl carousle*/
@@ -60,8 +62,8 @@ a i {
     z-index:-1;
 }
 .carousel{
-    margin-top: -11.9%;
-    z-index: -1;
+    /*margin-top: -11.9%;
+    z-index: -1;*/
 }
 
 .card {
@@ -74,28 +76,6 @@ a i {
     box-shadow: 0px 4px 8px 0px #BDBDBD
 }
 
-.owl-carousel .owl-nav button.owl-next,
-.owl-carousel .owl-nav button.owl-prev {
-    background: 0 0;
-    color: #1E88E5 !important;
-    border: none;
-    padding: 5px 20px !important;
-    font: inherit;
-    font-size: 50px !important
-}
-
-.owl-carousel .owl-nav button.owl-next:hover,
-.owl-carousel .owl-nav button.owl-prev:hover {
-    color: #0D47A1 !important;
-    background-color: transparent !important
-}
-.col-md-2{
-    width: 900px;
-    border: 3px;
-}
-.owl-dots {
-    display: none
-}
 
 .card{
     height: 500px;
